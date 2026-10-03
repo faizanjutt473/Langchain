@@ -1,4 +1,4 @@
-# 🦜️🔗 LangChain Classic
+ LangChain Classic
 
 [![PyPI - Version](https://img.shields.io/pypi/v/langchain-classic?label=%20)](https://pypi.org/project/langchain-classic/#history)
 [![PyPI - License](https://img.shields.io/pypi/l/langchain-classic)](https://opensource.org/licenses/MIT)
@@ -16,7 +16,7 @@ To help you ship LangChain apps to production faster, check out [LangSmith](http
 uv add langchain-classic
 ```
 
-## 🤔 What is this?
+ What is this?
 
 Legacy chains, `langchain-community` re-exports, indexing API, deprecated functionality, and more.
 
@@ -26,11 +26,11 @@ In most cases, you should be using the main [`langchain`](https://pypi.org/proje
 
 For full documentation, see the [API reference](https://reference.langchain.com/python/langchain_classic). For conceptual guides, tutorials, and examples on using LangChain, see the [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview).
 
-## 📕 Releases & Versioning
+ Releases & Versioning
 
 See our [Releases](https://docs.langchain.com/oss/python/release-policy) and [Versioning](https://docs.langchain.com/oss/python/versioning) policies.
 
-## 💁 Contributing
+ Contributing
 
 As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
 
