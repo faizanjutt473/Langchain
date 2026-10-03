@@ -1,49 +1,42 @@
-# Dev container
+# 🦜️🔗 LangChain Classic
 
-This project includes a [dev container](https://containers.dev/), which lets you use a container as a full-featured dev environment.
+[![PyPI - Version](https://img.shields.io/pypi/v/langchain-classic?label=%20)](https://pypi.org/project/langchain-classic/#history)
+[![PyPI - License](https://img.shields.io/pypi/l/langchain-classic)](https://opensource.org/licenses/MIT)
+[![PyPI - Downloads](https://img.shields.io/pepy/dt/langchain-classic)](https://pypistats.org/packages/langchain-classic)
+[![Twitter](https://img.shields.io/twitter/url/https/twitter.com/langchain_oss.svg?style=social&label=Follow%20%40LangChain)](https://x.com/langchain_oss)
 
-You can use the dev container configuration in this folder to build and run the app without needing to install any of its tools locally! You can use it in [GitHub Codespaces](https://github.com/features/codespaces) or the [VS Code Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
+Looking for the JS/TS version? Check out [LangChain.js](https://github.com/langchain-ai/langchainjs).
 
-## GitHub Codespaces
+To help you ship LangChain apps to production faster, check out [LangSmith](https://www.langchain.com/langsmith).
+[LangSmith](https://www.langchain.com/langsmith) is a unified developer platform for building, testing, and monitoring LLM applications.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/langchain-ai/langchain)
+## Quick Install
 
-You may use the button above, or follow these steps to open this repo in a Codespace:
-
-1. Click the **Code** drop-down menu at the top of <https://github.com/langchain-ai/langchain>.
-1. Click on the **Codespaces** tab.
-1. Click **Create codespace on master**.
-
-For more info, check out the [GitHub documentation](https://docs.github.com/en/free-pro-team@latest/github/developing-online-with-codespaces/creating-a-codespace#creating-a-codespace).
-
-## VS Code Dev Containers
-
-[![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/langchain-ai/langchain)
-
-> [!NOTE]
-> If you click the link above you will open the main repo (`langchain-ai/langchain`) and *not* your local cloned repo. This is fine if you only want to run and test the library, but if you want to contribute you can use the link below and replace with your username and cloned repo name:
-
-```txt
-https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/&lt;YOUR_USERNAME&gt;/&lt;YOUR_CLONED_REPO_NAME&gt;
+```bash
+uv add langchain-classic
 ```
 
-Then you will have a local cloned repo where you can contribute and then create pull requests.
+## 🤔 What is this?
 
-If you already have VS Code and Docker installed, you can use the button above to get started. This will use VSCode to automatically install the Dev Containers extension if needed, clone the source code into a container volume, and spin up a dev container for use.
+Legacy chains, `langchain-community` re-exports, indexing API, deprecated functionality, and more.
 
-Alternatively you can also follow these steps to open this repo in a container using the VS Code Dev Containers extension:
+In most cases, you should be using the main [`langchain`](https://pypi.org/project/langchain/) package.
 
-1. If this is your first time using a development container, please ensure your system meets the pre-reqs (i.e. have Docker installed) in the [getting started steps](https://aka.ms/vscode-remote/containers/getting-started).
+## 📖 Documentation
 
-2. Open a locally cloned copy of the code:
+For full documentation, see the [API reference](https://reference.langchain.com/python/langchain_classic). For conceptual guides, tutorials, and examples on using LangChain, see the [LangChain Docs](https://docs.langchain.com/oss/python/langchain/overview).
 
-   - Fork and Clone this repository to your local filesystem.
-   - Press <kbd>F1</kbd> and select the **Dev Containers: Open Folder in Container...** command.
-   - Select the cloned copy of this folder, wait for the container to start, and try things out!
+## 📕 Releases & Versioning
 
-You can learn more in the [Dev Containers documentation](https://code.visualstudio.com/docs/devcontainers/containers).
+See our [Releases](https://docs.langchain.com/oss/python/release-policy) and [Versioning](https://docs.langchain.com/oss/python/versioning) policies.
 
-## Tips and tricks
+## 💁 Contributing
 
-- If you are working with the same repository folder in a container and Windows, you'll want consistent line endings (otherwise you may see hundreds of changes in the SCM view). The `.gitattributes` file in the root of this repo will disable line ending conversion and should prevent this. See [tips and tricks](https://code.visualstudio.com/docs/devcontainers/tips-and-tricks#_resolving-git-line-ending-issues-in-containers-resulting-in-many-modified-files) for more info.
-- If you'd like to review the contents of the image used in this dev container, you can check it out in the [devcontainers/images](https://github.com/devcontainers/images/tree/main/src/python) repo.
+As an open-source project in a rapidly developing field, we are extremely open to contributions, whether it be in the form of a new feature, improved infrastructure, or better documentation.
+
+For detailed information on how to contribute, see the [Contributing Guide](https://docs.langchain.com/oss/python/contributing/overview).
+
+## Resources
+
+- [LangChain Academy](https://academy.langchain.com/) — comprehensive, free courses on LangChain libraries and products, made by the LangChain team
+- [Code of Conduct](https://github.com/langchain-ai/langchain/?tab=coc-ov-file) — community guidelines and standards
